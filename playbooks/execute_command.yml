@@ -3,7 +3,7 @@
   connection: local
   tasks:
    - name: Execute command on host
-     command: ls {{ arg }}
+     command: echo "{{ arg }}"
      register: output
    - name: Print out put of previous task
      debug:
