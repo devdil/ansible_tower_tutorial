@@ -7,4 +7,4 @@
      register: output
    - name: Print out put of previous task
      debug:
-       msg: " {{ ouput.stdout }} "
+       msg: " {{ output.stdout }} "
