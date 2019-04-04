@@ -1,0 +1,6 @@
+- name: 'Execute command on host'
+  hosts: 127.0.0.1
+  connection: local
+  tasks:
+   - name: Execute command on host
+     command: ls {{ arg }}
